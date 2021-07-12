@@ -4,13 +4,13 @@ import Add from './components/Add';
 import Divide from './components/Divide';
 import Minus from './components/Minus';
 import Multi from './components/Multi';
-
 function App() {
   return (
     <div className='container mt-5 text-center'>
       <h1 className='text-primary'>Mathematical Operations</h1>
       <div class="row m-5">
         <div className="col">
+
           <Add num1={25} num2={30} />
         </div>
         <div className="col">
